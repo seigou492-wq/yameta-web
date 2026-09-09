@@ -441,3 +441,6 @@ a:focus-visible, .button:focus-visible, summary:focus-visible, .nav-cta:focus-vi
   .hero-device .iphone-frame, .chip-money, .chip-time, .device-halo, .final-orb, .setup-live i { animation: none; }
   .site-header { transition: none; }
 }
+
+/* Full product name after the September 2026 rename. */
+.brand > span:last-child { max-width: 210px; font-size: 15px; line-height: 1.2; }
